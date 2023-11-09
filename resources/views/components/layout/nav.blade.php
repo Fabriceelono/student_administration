@@ -9,6 +9,4 @@
         </x-nav-link>
 
     </div>
-
-
 </nav>

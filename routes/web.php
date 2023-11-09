@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Course;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'home')->name('home');
-Route::view('course','course')->name('course');
+//Route::view('course','course')->name('course');
+//Route::get('course', Course::class)->name('course');
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
